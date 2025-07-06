@@ -1,48 +1,70 @@
-# SCT_WD_1
-SkillCraft Technology Intership task 1
-# 🌐 Responsive Navigation Menu for Landing Page
+# Getting Started with Create React App
 
-This project implements an interactive, fixed, and fully responsive navigation menu tailored for modern landing pages. Built using **HTML**, **CSS**, and **JavaScript**, it includes accessibility features, smooth transitions, mobile responsiveness, and a clean, modern design.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📌 Features Breakdown (Based on Prompt)
+In the project directory, you can run:
 
-### 1. Menu Structure
+### `npm start`
 
-- A horizontal navigation bar with **five clickable items**: Home, About, Services, Portfolio, Contact.
-- Each item uses semantic `<a>` tags for clear link behavior.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 2. Styling
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- The navbar is **fixed at the top** (`position: fixed`) and stays visible while scrolling.
-- Uses a **contrasting background color** to distinguish the navbar from content.
-- Hover effects apply **color transitions** and **background changes** with smooth animation.
+### `npm test`
 
-### 3. Interactive Features
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- On hover, menu items change **background and text color** with smooth transition (`transition: all 0.3s ease`).
-- When scrolling down, a **box-shadow** is added dynamically via JavaScript to increase visibility.
+### `npm run build`
 
-### 4. Responsive Design
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- On **screens smaller than 768px**, the nav collapses into a **hamburger menu**.
-- A hamburger button toggles visibility of the menu using JavaScript.
-- The mobile menu stacks vertically and slides down when activated.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### 5. Accessibility
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- ARIA attributes included:
-  - `role="navigation"`
-  - `aria-label`, `aria-controls`, `aria-expanded`
-- Contrast levels meet **WCAG 2.1 AA** standards for readability and accessibility.
-- Full keyboard accessibility support.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📁 Project Files
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-├── index.html # Navigation markup
-├── style.css # Styling for desktop and mobile
-├── script.js # Toggle and scroll behavior
-└── README.md # Documentation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
